@@ -2,7 +2,17 @@ HeadersAnlyzer
 ----
 
 HeadersAnlyzer is a small project that help to identify a server weeknes and potential vulnerabilities for pentesting.
-The application send one malicous reqest to the server and try to anlyze the response. In addtion, it tries to figure out eat WAF id behiend.
+The application send one malicous request to the server and try to anlyze the response (Headers, Cookies) to find a vulnerabilites. In addtion, it tries to figure out what WAF is behiend.
+
+WAF Supported:
+ * F5 ASM (and TrafficShield)
+ * NetScalar (Citrix)
+ * Barckuda
+ * Mod_Secuirty
+ * Webknight
+ * BinerySec
+ * DotDefender
+ * Incapsula
 
 Usage
 ----
