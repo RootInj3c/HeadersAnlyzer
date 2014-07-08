@@ -5,7 +5,7 @@ import argparse
 print '#############################################'
 print '####  Headers Anlazyer     ##################'
 print '####       @@@@@@          ##################'
-print '####    @By Maor T.    ######################'
+print '####    @By RootInj3c    ####################'
 print '#############################################'
 parser = argparse.ArgumentParser(description='Anlyze Headers in Response that could asset during finding vulnerabilites')
 parser.add_argument('--url', help='Website address to analyze headers')
