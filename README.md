@@ -24,3 +24,17 @@ To run the tool:
 If you want to export the shell verbrose to txt file you could use the following flag:
 
     python headers.py --url="http://mytarget.com" --export=MyReport
+
+Vulnerabilites Support
+----
+Currently the application anlyze the following vulnerabilites:
+ * No Secure Attribute
+ * No HttpOnly Attribute
+ * Banner Server Exposure
+ * Technology information about the server
+ * Detection of AngularJS CSRF Protection
+ * Protection for XSS in IE
+ * Weaknees against ClickJacking
+ * Weaknees against CSP attacks
+ * Weaknees vs. CORS attacks
+ 
