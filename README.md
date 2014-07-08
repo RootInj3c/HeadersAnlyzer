@@ -27,7 +27,7 @@ If you want to export the shell verbrose to txt file you could use the following
 
 Vulnerabilites Support
 ----
-Currently the application anlyze the following vulnerabilites:
+Currently, the application anlyze the following vulnerabilites:
  * No Secure Attribute
  * No HttpOnly Attribute
  * Banner Server Exposure
