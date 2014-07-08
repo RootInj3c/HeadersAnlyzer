@@ -22,4 +22,5 @@ To run the tool:
     python headers.py --url="http://mytarget.com"
   
 If you want to export the shell verbrose to txt file you could use the following flag:
+
     python headers.py --url="http://mytarget.com" --export=MyReport
