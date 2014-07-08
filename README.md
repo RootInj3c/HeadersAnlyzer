@@ -14,6 +14,15 @@ WAF Supported:
  * DotDefender
  * Incapsula
 
+Installtion
+----
+
+Use pip to install dependency called requests:
+
+    pip install requests
+
+Then, download this script to you machine and running with Python 2.7.x only.
+
 Usage
 ----
 
