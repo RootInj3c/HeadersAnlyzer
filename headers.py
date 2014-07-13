@@ -58,8 +58,6 @@ if 'x-xsrf-token' in r.headers:
             file.write("\n"+Angu+"\n\t\t|_ The Anti-CSRF module in AngularJS Framwork is enable, could be issue to bypass!")
         print Angu
 
-print "[ ~~ ] Checking for Misconfiguration settings in Headers..."
-
 # Test For Senstive Headers
 if 'server' in r.headers:
     server = r.headers['server']
